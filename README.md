@@ -26,7 +26,7 @@ MarkerParty.init(SCALE_BOUNCE_DOWN)
 - **withMarker(Marker)** - Marker object to animate 
 - **withBitmap(Bitmap)** - the image of the marker to be animated during the animation.  
 - **withDuration(int)** - the duration time in milliseconds
-- **withScale(float)** - the final size of the pin to animate to. 
+- **withScale(float)** - the final size of the pin to animate to. Provide the final size relative to 1.0 which is 100%. Then 0.8F is 80% or 20% bigger will be 1.2F. 
 - **start()** - begin the show. 
 
 ### Authors
