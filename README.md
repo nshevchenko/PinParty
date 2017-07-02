@@ -8,6 +8,15 @@ It animates your map pins with bounce animation up or down.
 
 ### Include the library
 
+Copy inside your build.gradle the dependendcy line 
+
+```
+dependencies {
+           ...
+           compile 'com.github.nshevchenko:pinparty:1.0'
+           ...
+}
+```
 
 ### Usage
 
